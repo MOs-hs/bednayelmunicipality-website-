@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Cairo', 'Segoe UI', Tahoma, sans-serif;
+    background-color: #1a2332;
+    color: #e2e8f0;
+    overflow-x: hidden;
+  }
+  * { box-sizing: border-box; }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-gradient-to-r from-blue-500 to-emerald-500 text-white font-semibold rounded-full
+           hover:shadow-lg hover:shadow-blue-500/30 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer;
+  }
+  .btn-secondary {
+    @apply px-6 py-3 border border-blue-500 text-blue-400 font-semibold rounded-full
+           hover:bg-blue-500 hover:text-white transition-all duration-300 cursor-pointer;
+  }
+  .card {
+    @apply bg-navy-800 border border-white/10 rounded-2xl shadow-xl;
+  }
+  .input-field {
+    @apply w-full bg-navy-900 border border-white/10 text-white placeholder-gray-500
+           rounded-xl px-4 py-3 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all;
+  }
+  .section-title {
+    @apply text-3xl font-bold text-white text-center mb-2;
+  }
+  .section-subtitle {
+    @apply text-gray-400 text-center mb-12;
+  }
+  .nav-link {
+    @apply px-5 py-2 rounded-full text-gray-300 font-semibold text-sm hover:text-white
+           hover:bg-gradient-to-r hover:from-blue-600 hover:to-emerald-600 transition-all duration-300;
+  }
+  .nav-link-active {
+    @apply bg-gradient-to-r from-blue-600 to-emerald-600 text-white;
+  }
+  .modal-overlay {
+    @apply fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-4;
+  }
+  .modal-box {
+    @apply bg-navy-800 rounded-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto shadow-2xl border border-white/10;
+  }
+  .stat-card {
+    @apply card p-8 text-center hover:-translate-y-2 transition-transform duration-300;
+  }
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #1a2332; }
+::-webkit-scrollbar-thumb { background: #3498db; border-radius: 3px; }
+
+/* Smooth transitions */
+* { transition-property: color, background-color, border-color, box-shadow, transform; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 200ms; }
+a, button { transition-duration: 300ms; }
+
+/* ── News Ticker ── */
+.news-ticker-bar {
+  background: linear-gradient(90deg, #0f1f3d 0%, #0d2145 100%);
+  border-top: 1px solid rgba(251, 191, 36, 0.2);
+  border-bottom: 1px solid rgba(251, 191, 36, 0.15);
+  height: 34px;
+  font-size: 0.8rem;
+}
+
+.news-ticker-label {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  min-width: 90px;
+  height: 100%;
+  box-shadow: 4px 0 12px rgba(245, 158, 11, 0.4);
+  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 50%, calc(100% - 10px) 100%, 0 100%);
+  padding-right: 18px;
+}
+
+.news-ticker-track {
+  background: transparent;
+  mask-image: linear-gradient(to left, transparent 0%, black 5%, black 95%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to left, transparent 0%, black 5%, black 95%, transparent 100%);
+}
+
+.news-ticker-scroll {
+  display: inline-block;
+  animation: ticker-scroll 30s linear infinite;
+  color: #d1d5db;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  will-change: transform;
+}
+
+.news-ticker-scroll:hover {
+  animation-play-state: paused;
+}
+
+@keyframes ticker-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}

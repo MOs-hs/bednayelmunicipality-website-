@@ -1,0 +1,302 @@
+{
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "contact": "Contact Us",
+    "locations": "Locations",
+    "gallery": "Gallery",
+    "dashboard": "Dashboard",
+    "adminPanel": "Admin Panel",
+    "welcome": "Welcome, {{name}}",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register",
+    "news": "News",
+    "english": "English",
+    "arabic": "العربية",
+    "municipalityName": "Bednayel Municipality",
+    "officialSite": "Official Website"
+  },
+  "home": {
+    "loading": "Loading...",
+    "stats": {
+      "citizens": "Registered Citizens",
+      "appointments": "Appointments Booked",
+      "complaints": "Complaints Submitted",
+      "locations": "Local Locations"
+    },
+    "about": {
+      "title": "About Bednayel Municipality",
+      "description": "Welcome to the official website of Bednayel Municipality. Our mission is to serve our community by providing effective public services, fostering development, and preserving our cultural heritage. We are committed to delivering the best services to all citizens."
+    },
+    "services": {
+      "title": "Our Services",
+      "book": {
+        "title": "Book Appointment",
+        "desc": "Easily book an appointment to receive municipal services",
+        "btn": "Book Now"
+      },
+      "complaint": {
+        "title": "Submit Complaint",
+        "desc": "Report any issue or suggestion to improve services",
+        "btn": "Submit Complaint"
+      },
+      "locations": {
+        "title": "Local Guide",
+        "desc": "Discover local places and services in Bednayel",
+        "btn": "Explore"
+      }
+    },
+    "news": {
+      "title": "Latest News",
+      "noNews": "No news available at the moment"
+    }
+  },
+  "login": {
+    "title": "Citizen Login",
+    "or": "Or",
+    "createAccount": "Create a new account",
+    "phoneLabel": "Phone Number",
+    "passwordLabel": "Password",
+    "forgotPassword": "Forgot password?",
+    "loginButton": "Login",
+    "loggingIn": "Logging in...",
+    "loginError": "Login failed"
+  },
+  "register": {
+    "title": "Create New Account",
+    "hasAccount": "Already have an account?",
+    "loginHere": "Login here",
+    "fullName": "Full Name *",
+    "phone": "Phone Number *",
+    "email": "Email",
+    "address": "Residential Address",
+    "password": "Password *",
+    "confirmPassword": "Confirm Password *",
+    "createButton": "Create Account",
+    "creating": "Creating account...",
+    "passwordMismatch": "Passwords do not match",
+    "registerError": "Registration failed"
+  },
+  "verify": {
+    "title": "Account Verification",
+    "subtitle": "Enter the verification code sent to",
+    "devNote": "Note (for demo only):",
+    "devCode": "Your verification code is:",
+    "codeLabel": "Verification Code (6 digits)",
+    "verifyButton": "Verify",
+    "verifying": "Verifying...",
+    "success": "Account verified successfully! Redirecting to login...",
+    "invalidCode": "Invalid verification code",
+    "noPhone": "Please login or create an account first."
+  },
+  "forgotPassword": {
+    "title": "Forgot Password?",
+    "subtitle": "Enter your registered phone number and we'll send you a reset link",
+    "phoneLabel": "Phone Number",
+    "sendButton": "Send Reset Link",
+    "sending": "Sending...",
+    "devLabel": "Reset link (for demo only — development mode)",
+    "copyLink": "Copy Link",
+    "copied": "Copied!",
+    "openLink": "Open Link",
+    "expiresIn": "⏱ Expires in 15 minutes",
+    "backToLogin": "Back to Login",
+    "rememberPassword": "Remember your password?",
+    "loginLink": "Login",
+    "error": "An error occurred. Please try again later."
+  },
+  "resetPassword": {
+    "invalidLink": "Invalid Link",
+    "invalidLinkDesc": "This link is invalid or has expired. Please request a new link.",
+    "requestNewLink": "Request New Link",
+    "title": "Set New Password",
+    "subtitle": "Enter a new password for your account linked to",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "passwordStrength": "Password strength:",
+    "weak": "Weak",
+    "medium": "Medium",
+    "strong": "Strong",
+    "passwordMismatch": "Passwords do not match",
+    "passwordMatch": "Passwords match",
+    "minLength": "Password must be at least 6 characters",
+    "setPassword": "Set Password",
+    "saving": "Saving...",
+    "redirecting": "Redirecting to login page...",
+    "error": "An error occurred. Please try again."
+  },
+  "services": {
+    "title": "Municipal Services",
+    "subtitle": "We offer a comprehensive range of services to serve our community",
+    "loginRequired": "You must be logged in as a citizen to use services",
+    "appointment": {
+      "title": "Book Appointment",
+      "desc": "Book your appointment for municipal services",
+      "btn": "Book Now",
+      "modalTitle": "Book Appointment"
+    },
+    "complaint": {
+      "title": "Submit Complaint",
+      "desc": "Report issues or suggestions to improve services",
+      "btn": "Submit Complaint",
+      "modalTitle": "Submit Complaint"
+    },
+    "document": {
+      "title": "Municipal Documents",
+      "desc": "Obtain official documents and certificates",
+      "btn": "Request Document",
+      "modalTitle": "Request Document"
+    },
+    "customerService": {
+      "title": "Customer Service",
+      "desc": "Contact us for assistance",
+      "btn": "Contact Us"
+    },
+    "loginRequiredBtn": "Login Required",
+    "loginRequiredTitle": "Login Required",
+    "loginRequiredDesc": "You must be a registered citizen to use this service.",
+    "loginBtn": "Login",
+    "createAccountBtn": "Create New Account",
+    "form": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "appointmentDate": "Appointment Date",
+      "appointmentTime": "Appointment Time",
+      "selectTime": "Select Time",
+      "morning8": "8:00 AM",
+      "morning10": "10:00 AM",
+      "noon12": "12:00 PM",
+      "serviceType": "Service Type",
+      "selectServiceType": "Select Service Type",
+      "inquiry": "Inquiry",
+      "permit": "Permit Request",
+      "other": "Other",
+      "complaintType": "Complaint Type",
+      "selectComplaintType": "Select Complaint Type",
+      "infrastructure": "Infrastructure",
+      "sanitation": "Sanitation",
+      "problemLocation": "Problem Location",
+      "documentType": "Document Type",
+      "selectDocumentType": "Select Document Type",
+      "birthCertificate": "Birth Certificate",
+      "residenceCertificate": "Residence Certificate",
+      "documentPurpose": "Document Purpose",
+      "description": "Description / Details",
+      "photo": "Photo (optional)",
+      "submitButton": "Confirm and Submit",
+      "submitting": "Submitting..."
+    },
+    "success": {
+      "appointment": "Appointment booked successfully! We will contact you soon.",
+      "complaint": "Complaint submitted successfully! We will take the necessary action.",
+      "document": "Document requested successfully! We will contact you soon."
+    },
+    "connectionError": "Connection error. Please try again later."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here to answer your questions and feedback",
+    "address": {
+      "title": "Address",
+      "line1": "Municipality Building, Main Street",
+      "line2": "Bednayel, Lebanon"
+    },
+    "phone": {
+      "title": "Phone"
+    },
+    "email": {
+      "title": "Email"
+    },
+    "form": {
+      "title": "Send a Message",
+      "fullName": "Full Name",
+      "email": "Email",
+      "message": "Message",
+      "sendButton": "Send Message",
+      "sending": "Sending...",
+      "success": "Your message was sent successfully! We will contact you soon.",
+      "error": "An error occurred while sending."
+    }
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "View the most beautiful moments and projects in our town",
+    "loading": "Loading...",
+    "noPhotos": "No photos available at the moment"
+  },
+  "locations": {
+    "title": "Local Guide",
+    "subtitle": "Discover places and services in Bednayel",
+    "loading": "Loading...",
+    "noLocations": "No locations available in this category at the moment",
+    "visitWebsite": "Visit Website",
+    "categories": {
+      "all": "All",
+      "tourist": "Tourism",
+      "restaurant": "Restaurants",
+      "health": "Health",
+      "education": "Education",
+      "business": "Business",
+      "other": "Other"
+    }
+  },
+  "dashboard": {
+    "title": "My Account",
+    "welcome": "Welcome,",
+    "accountInfo": "Account Information",
+    "fullName": "Full Name",
+    "phone": "Phone Number",
+    "accountType": "Account Type",
+    "registeredCitizen": "Registered Citizen",
+    "myAppointments": "My Appointments",
+    "loading": "Loading...",
+    "noAppointments": "No appointments registered in your name yet.",
+    "bookFromServices": "You can book an appointment from the Services page",
+    "bookAppointment": "Book an Appointment",
+    "fromServicesPage": "From the Services page",
+    "contactUs": "Contact Us",
+    "sendInquiry": "Send an inquiry or complaint",
+    "status": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "open": "Open",
+      "inProgress": "In Progress",
+      "resolved": "Resolved",
+      "closed": "Closed"
+    }
+  },
+  "news": {
+    "badge": "Latest News",
+    "title": "Municipality News",
+    "subtitle": "Follow the latest news and updates from Bednayel Municipality",
+    "searchPlaceholder": "Search news...",
+    "all": "All",
+    "noNews": "No news available at the moment",
+    "featured": "Featured",
+    "readFull": "Read full article",
+    "readMore": "Read more"
+  },
+  "footer": {
+    "municipalityName": "Bednayel Municipality",
+    "description": "We are committed to serving our community, developing our town, and providing the best services to citizens.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contactUs": "Contact Us",
+    "locations": "Locations",
+    "contactInfo": "Contact Information",
+    "copyright": "© {{year}} Bednayel Municipality. All rights reserved."
+  },
+  "adminLogin": {
+    "title": "Admin Portal",
+    "subtitle": "For employees and administrators only",
+    "username": "Username",
+    "password": "Password",
+    "loginButton": "Login",
+    "loggingIn": "Verifying...",
+    "loginError": "Login failed"
+  }
+}
